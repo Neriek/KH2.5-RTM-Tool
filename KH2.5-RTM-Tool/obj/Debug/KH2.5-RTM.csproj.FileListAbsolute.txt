@@ -1,0 +1,16 @@
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\bin\Debug\KH2.5-RTM.exe.config
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\obj\Debug\KH2.5-RTM.exe
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\obj\Debug\KH2.5-RTM.pdb
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\bin\Debug\KH2.5-RTM.exe
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\bin\Debug\KH2.5-RTM.pdb
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\bin\Debug\af-ZA\KH2.5-RTM.resources.dll
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\bin\Debug\MetroFramework.Design.dll
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\bin\Debug\MetroFramework.dll
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\bin\Debug\PS3Lib.dll
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\obj\Debug\KH2.5-RTM.csprojResolveAssemblyReference.cache
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\obj\Debug\KingdomHearts.Form1.resources
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\obj\Debug\KingdomHearts.Properties.Resources.resources
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\obj\Debug\KingdomHearts.Form1.af-ZA.resources
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\obj\Debug\KH2.5-RTM.csproj.GenerateResource.Cache
+C:\Users\Keiren\SkyDrive\Documents\Visual Studio 2013\Projects\MetroTest\MetroTest\obj\Debug\af-ZA\KH2.5-RTM.resources.dll
