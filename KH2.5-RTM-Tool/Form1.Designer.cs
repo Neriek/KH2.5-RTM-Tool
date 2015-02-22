@@ -38,6 +38,7 @@
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
+            this.metroCheckBox3 = new MetroFramework.Controls.MetroCheckBox();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
@@ -52,11 +53,12 @@
             this.metroComboBox6 = new MetroFramework.Controls.MetroComboBox();
             this.metroComboBox5 = new MetroFramework.Controls.MetroComboBox();
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
-            this.metroButton5 = new MetroFramework.Controls.MetroButton();
-            this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
             this.metroCheckBox2 = new MetroFramework.Controls.MetroCheckBox();
+            this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
+            this.metroButton5 = new MetroFramework.Controls.MetroButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
@@ -251,6 +253,7 @@
             // 
             // metroTabPage1
             // 
+            this.metroTabPage1.Controls.Add(this.metroCheckBox3);
             this.metroTabPage1.Controls.Add(this.metroLabel4);
             this.metroTabPage1.Controls.Add(this.metroLabel3);
             this.metroTabPage1.Controls.Add(this.metroLabel2);
@@ -269,6 +272,14 @@
             this.metroTabPage1.VerticalScrollbarBarColor = true;
             this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage1.VerticalScrollbarSize = 10;
+            // 
+            // metroCheckBox3
+            // 
+            resources.ApplyResources(this.metroCheckBox3, "metroCheckBox3");
+            this.metroCheckBox3.Name = "metroCheckBox3";
+            this.metroCheckBox3.Style = MetroFramework.MetroColorStyle.Purple;
+            this.metroCheckBox3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroCheckBox3.UseSelectable = true;
             // 
             // metroLabel4
             // 
@@ -402,14 +413,14 @@
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.VerticalScrollbarSize = 10;
             // 
-            // metroButton5
+            // metroCheckBox2
             // 
-            resources.ApplyResources(this.metroButton5, "metroButton5");
-            this.metroButton5.Name = "metroButton5";
-            this.metroButton5.Style = MetroFramework.MetroColorStyle.Purple;
-            this.metroButton5.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroButton5.UseSelectable = true;
-            this.metroButton5.Click += new System.EventHandler(this.metroButton5_Click);
+            resources.ApplyResources(this.metroCheckBox2, "metroCheckBox2");
+            this.metroCheckBox2.Name = "metroCheckBox2";
+            this.metroCheckBox2.Style = MetroFramework.MetroColorStyle.Purple;
+            this.metroCheckBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroCheckBox2.UseSelectable = true;
+            this.metroCheckBox2.CheckedChanged += new System.EventHandler(this.metroCheckBox2_CheckedChanged);
             // 
             // metroCheckBox1
             // 
@@ -420,14 +431,14 @@
             this.metroCheckBox1.UseSelectable = true;
             this.metroCheckBox1.CheckedChanged += new System.EventHandler(this.metroCheckBox1_CheckedChanged_1);
             // 
-            // metroCheckBox2
+            // metroButton5
             // 
-            resources.ApplyResources(this.metroCheckBox2, "metroCheckBox2");
-            this.metroCheckBox2.Name = "metroCheckBox2";
-            this.metroCheckBox2.Style = MetroFramework.MetroColorStyle.Purple;
-            this.metroCheckBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroCheckBox2.UseSelectable = true;
-            this.metroCheckBox2.CheckedChanged += new System.EventHandler(this.metroCheckBox2_CheckedChanged);
+            resources.ApplyResources(this.metroButton5, "metroButton5");
+            this.metroButton5.Name = "metroButton5";
+            this.metroButton5.Style = MetroFramework.MetroColorStyle.Purple;
+            this.metroButton5.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroButton5.UseSelectable = true;
+            this.metroButton5.Click += new System.EventHandler(this.metroButton5_Click);
             // 
             // timer1
             // 
@@ -436,6 +447,10 @@
             // timer2
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // Form1
             // 
@@ -452,6 +467,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.metroTabControl1.ResumeLayout(false);
             this.metroTabPage1.ResumeLayout(false);
+            this.metroTabPage1.PerformLayout();
             this.metroTabPage2.ResumeLayout(false);
             this.metroTabPage2.PerformLayout();
             this.metroTabPage3.ResumeLayout(false);
@@ -489,6 +505,8 @@
         private MetroFramework.Controls.MetroCheckBox metroCheckBox1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
+        private MetroFramework.Controls.MetroCheckBox metroCheckBox3;
     }
 }
 

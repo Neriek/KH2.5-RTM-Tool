@@ -48,11 +48,18 @@ namespace KingdomHearts
             }
             TargetInfo.Abort();
         }
-
+      
 
         private void metroComboBox1_SelectedIndexChanged(object sender, EventArgs e) // Sora
         {
-
+            if (metroComboBox1.SelectedItem == "Roxas" && metroCheckBox3.Checked)
+            {
+                timer3.Start();
+            }
+            else
+            {
+                timer3.Stop();
+            }
         }
 
         private void metroButton5_Click(object sender, EventArgs e) // connnect and attach
@@ -139,6 +146,12 @@ namespace KingdomHearts
         {
             byte[] buffer = new byte[] { 0x00, 0xf1, 0x86, 0x49 }; // Value(Bytes)
             PS3.SetMemory(0x00774410, buffer); // Address
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            byte[] buffer = new byte[] { 0x00, 0x5A };
+            PS3.SetMemory(0x027F6A88, buffer);
         }
 
 
